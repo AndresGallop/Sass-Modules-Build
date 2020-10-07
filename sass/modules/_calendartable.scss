@@ -1,0 +1,60 @@
+.weeklySched {
+    position:relative;
+    left:40px;
+    color:#969595;
+    margin-top:30px;
+    margin-bottom:30px;
+
+    ul { margin-bottom:0; }
+}
+
+.lowerPanelNav { 
+    font-size:1.8rem; 
+
+    li { margin-right:60px; cursor:pointer; }
+    li:last-child { margin-right:0; }
+
+}
+
+.bottomCalendar { position:relative; left:40px; }
+
+.dayBox { background-color:#eaeaea; color:#9b9b9b; width:90%; height:275px; 
+
+    i {  font-size:3rem; }
+    i:last-child { position:relative; top:-30px; }
+
+}
+
+.dayMarker { font-size:6rem; font-weight:700; position:relative; top:-20px; }
+
+hr { border-color: #ccc; }
+
+.calendarStuff hr { margin-top:0; }
+.courseInfo hr { max-width:185px; margin-left:0; }
+
+
+
+th {  padding-bottom:20px; font-size:1.5rem; color:#999; background-color:transparent; }
+
+
+table { color:#a4a9ae;
+
+    th:first-child, table td:first-child { padding-left:30px ;}
+    tr:nth-child(2n+1) { background-color:#f0f2f5; }
+    tr:nth-child(2n+2) { background-color:#f6f8fa; }
+}
+
+td { font-size:1.45rem; padding:10px 0; 
+
+    span { margin-left:12px; margin-right:6px; font-size:1.85rem; color:#ccc; }
+    span:nth-child(1) { margin-right:0; }
+    span:nth-child(2) { margin-right:0; }
+    i { font-size:5rem; }
+}
+
+.stretchCell { width:210px; }
+.wideCell { width:30% ;}
+.locked { color:$locked-color; }
+.viewed { color:$viewed-color; }
+.notViewed { color:$notViewed-color; }
+.fbActive { color:$fbActive-color; }
